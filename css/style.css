@@ -1,0 +1,115 @@
+@font-face{
+    font-family: 'Chewy';
+    src: url('Chewy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-family:'Chewy', cursive;
+
+background: linear-gradient(135deg,#ff7eb3,#ff758c,#ffb199,#ffecd2);
+}
+
+.container{
+text-align:center;
+}
+
+h1{
+font-size:48px;
+color:white;
+text-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+button{
+padding:15px 35px;
+font-size:24px;
+font-weight: 900;
+border:none;
+border-radius:14px;
+cursor:pointer;
+margin:10px;
+
+font-family:'Chewy', cursive;
+
+transition:0.3s;
+}
+
+#yes{
+background:#2ecc71;
+color:white;
+}
+
+#no{
+background:#ff4d4d;
+color:white;
+}
+
+img{
+width:260px;
+margin-top:30px;
+border-radius:20px;
+box-shadow:0 15px 50px rgba(0,0,0,0.3);
+}
+
+#final{
+display:none;
+}
+
+#open{
+background:black;
+color:white;
+font-size:28px;
+}
+
+
+#letterBox h2{
+color:#ffffff;
+}
+
+
+#letterBox{
+display:none;
+margin-top:30px;
+}
+
+#letter{
+width:400px;
+height:300px;
+padding:25px;
+font-size:22px;
+
+font-family:'Chewy', cursive;
+font-weight:bold; 
+
+color:#ff589b;
+
+border-radius:20px;
+border:none;
+outline:none;
+
+background:white;
+
+box-shadow:0 20px 60px rgba(0,0,0,0.4);
+
+resize:none;
+}
+
+
+
+
+
+
+
+.letterPhoto{
+width:180px;
+display:block;
+margin:0 auto 15px auto;
+border-radius:15px;
+}
